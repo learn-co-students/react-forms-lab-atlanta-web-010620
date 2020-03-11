@@ -8,6 +8,12 @@ class App extends Component {
     console.log(`Logging in ${username} with password ${password}`);
   };
 
+  // handleData = (event) => {
+  //   this.setState({
+  //     [event.target.name]:event.target.value
+  //   })
+  // }
+
   render() {
     return (
       <div>
